@@ -16,5 +16,5 @@ jobs:
           username: ${{ secrets.USUARIO_SERVIDOR }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd ~/lemp-sites/francisco_elisondo
+            cd ~/lemp-sites/santiago_delfino
             git pull origin main
